@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Theory</title>
+  </head>
+  <body>
+    <h1>Tổng quan về HTML</h1>
+    <ul>
+      <li>Website: html,css,js->ngôn ngữ lập trình cơ bản</li>
+      <li>
+        Front-end: giao diện bên ngoài có thể nhìn thấy (UI/UX) <br />FE có 2
+        dạng<br />Web tĩnh (Static website): không thể tương tác<br />Web động
+        (Dynamic website): có thể tương tác
+      </li>
+      <li>Back-end: Nơi thông tin được gửi và xử lý database lên website</li>
+      FE-search thông tin -> BE-tìm kiếm thông tin dựa trên từ khoá -> BE- dịch
+      thông tin qua html,css,js -> FE-web hiển thị thông tin
+    </ul>
+    <hr />
+    <h3>HTML là ngôn ngữ đánh dấu siêu văn bản</h3>
+    Dùng để xác định nội dung & cấu trúc trang web
+    <h3>CSS Ngôn ngữ định dạng</h3>
+    Dùng để tô màu, in đậm, in nghiêng,... (UI)
+    <h3>JS Thao tác trên văn bản html</h3>
+    Ẩn hiện, click, thay nội dung,... (UX)
+    <hr />
+    <h2>Cấu trúc 1 file index</h2>
+    <img src="./assets/cau-truc-index.png" alt="cautruc" />
+    <ul>
+      <li>
+        Thẻ head: chứa thông tin tiêu đề trang, tác giả, các tập tin css, js
+        được link với trang, các thông tin quan trọng để tối ưu công cụ SEARCH
+        <br />+ Mục meta: để trang web đọc các chức năng như ngôn ngữ, dài/rộng
+        trang,... rộng
+      </li>
+      <li>
+        Thẻ body: nội dung hiển thị trong trang web <br />trong đó có các thẻ
+        tiêu đề từ h1-h6, nội dung có thể dùng Lorem để tạo văn bản tự động thay
+        thế <br />có thể tạo các dòng comment để note trong code bằng shortcut
+        "CTRL+SHIFT+/"
+      </li>
+      <li>
+        Có các thẻ định dạng văn bản
+        <ul>
+          <li>
+            p (pagragraph): chứa khối văn bản, có thể dùng ALT+W để gắn nhanh
+          </li>
+          <li>
+            b (bold): in đậm, có thể dùng (strong) để thay đổi nội dung quan
+            trọng, chủ yếu cho các trình đọc văn bản nhấn mạnh
+          </li>
+          <li>
+            i (italic): in nghiêng, dùng (em-emphasis) để nhấn mạnh nội dung
+          </li>
+          <li>u (underline) gạch chân</li>
+          <li>
+            ul (un-order list): tạo danh sách không thứ tự <br />ol (order
+            list): tạo danh sách có thứ tự <br />+ Thẻ ul và ol kết hợp với thẻ
+            li để tạo đánh dấu (symbol) đầu dòng <br />Cấu trúc: li*(số dòng)
+            tạo nhiều dòng đánh dấu tự động <br />li*$ để tạo đánh dấu số theo
+            thứ tự
+          </li>
+          <li>
+            a (anchor): thẻ đặc biệt để gắn link email, website, sđt,...
+            <img src="./assets/link-email.PNG" alt="ganlink" width="400" />
+          </li>
+          <li>img (image): thẻ gắn hình</li>
+          <li>thẻ br dùng để xuống dòng trong 1 đoạn văn</li>
+          <li>thẻ hr dùng để tạo gạch ngang ngắt dòng</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>
